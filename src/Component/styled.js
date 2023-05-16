@@ -23,8 +23,8 @@ export const Id = styled.span`
   width: 35px;
   height: 35px;
   border-radius: 999px;
-  background-color: #fff;
-  color: #333333;
+  background-color: #999999;
+  color: #fff;
 `;
 
 export const Name = styled.span`
@@ -35,7 +35,14 @@ export const Name = styled.span`
 `;
 
 export const Level = styled.span`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  background-color: #777777;
   right: 20px;
 `;
 
@@ -68,7 +75,7 @@ export const Item = styled.li`
 export const Title = styled.h1`
   width: 100%;
   height: 55px;
-  background-color: #666666;
+  background-color: #444444;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,4 +99,8 @@ export const Button = styled.button`
   color: #fff;
   border: 0;
   font-weight: 700;
+  transition: all 1s;
+  &:hover {
+    background-color: #111111;
+  }
 `;
