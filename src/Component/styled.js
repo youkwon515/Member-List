@@ -75,7 +75,7 @@ export const Item = styled.li`
 export const Title = styled.h1`
   width: 100%;
   height: 55px;
-  background-color: #666666;
+  background-color: #444444;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,4 +99,8 @@ export const Button = styled.button`
   color: #fff;
   border: 0;
   font-weight: 700;
+  transition: all 1s;
+  &:hover {
+    background-color: #111111;
+  }
 `;
